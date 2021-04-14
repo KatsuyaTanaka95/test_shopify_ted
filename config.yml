@@ -1,0 +1,24 @@
+
+# 開発環境(開発環境ストアテーマ)
+development:
+  password: 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
+  theme_id: "121960005815"
+  store: shoppartnerstest.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+
+# ステージング環境(本番ストアの複製ライブラリテーマ)
+staging:
+  password: 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
+  theme_id: "121778700484"
+  store: shoppptest.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+
+# 本番環境(本番ストアの現在のテーマ)
+production:
+  password: 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
+  theme_id: "121744359620"
+  store: shoppptest.myshopify.com
+  ignore_files:
+    - config/settings_data.json
