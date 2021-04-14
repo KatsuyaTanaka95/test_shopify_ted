@@ -2,6 +2,7 @@
   {% if section.settings.title != blank %}
     <div class="section-header text-center">
       <h2>{{ section.settings.title | escape }}</h2>
+      {{ 'Shopify' | link_to: 'https://www.shopify.com','A link to Shopify' }}
     </div>
   {% endif %}
 
