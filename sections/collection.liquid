@@ -2,9 +2,10 @@
   {% if section.settings.title != blank %}
     <div class="section-header text-center">
       <h2>{{ section.settings.title | escape }}</h2>
-      {{ 'Shopify' | link_to: 'https://www.shopify.com'}}
+      {%include 'button'%}
+      {% comment %} {{ 'Shopify' | link_to: 'https://www.shopify.com'}}
       <br>
-      {{ 'Miwaza' | link_to: 'https://www.notion.so/Los-Danzantes-Shopify-20e71f2546d44839b884a498cbbce06f'}}
+      {{ 'Miwaza' | link_to: 'https://www.notion.so/Los-Danzantes-Shopify-20e71f2546d44839b884a498cbbce06f'}} {% endcomment %}
     </div>
   {% endif %}
 
