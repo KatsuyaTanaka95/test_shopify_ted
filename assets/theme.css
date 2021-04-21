@@ -98,6 +98,8 @@
   - Remove `outline: none` from `.slick-dots li button`
 ==============================================================================*/
 
+/*================ custom-button用のcssを作成したのでコメントアウト ================*/
+
 /* .custom-button {
   display: inline-block;
   max-width: 180px;
